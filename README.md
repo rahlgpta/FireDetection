@@ -3,19 +3,16 @@ This repository contains code for a simple image classification task that classi
 
 **Dataset**
 
-The dataset used for this project is available in the "Dataset.zip" file. It contains two main subdirectories: "Training" and "Testing". The "Training" subdirectory contains subfolders "fire" and "no_fire", each containing respective images. The "Testing" subdirectory directly contains test images.
+The dataset used for this project is available in the "Dataset.zip" file. It contains two folders: "Training" and "Testing". The "Training"  contains subfolders "fire" and "no_fire", each containing respective images. The "Testing" subdirectory directly contains test images.
 
 **Setup**
 
 Clone this repository to your local machine or download the ZIP file.
 
-Extract the contents of "Dataset.zip" into the repository directory. << i am not providing this in this repository
+Extract the contents of "Dataset.zip" into the repository directory. << i am not providing this in this repository right now
 
-**If you're running the code on Google Colab:**
-
-
-Upload the entire repository (including the extracted dataset) to your Google Drive.
+Upload the entire repository (and dataset) to your Google Drive.
 
 **Usage**
 
-The forest_fire_classification.ipynb notebook provides step-by-step instructions on data preprocessing, model building, training, and evaluation. You can run this notebook on Google Colab.
+The Forest_Fire_Detection.ipynb notebook provides step-by-step instructions on data preprocessing, model building, training, and evaluation. You can run this notebook on Google Colab.
