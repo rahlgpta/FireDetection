@@ -16,3 +16,25 @@ Upload the entire repository (and dataset) to your Google Drive.
 **Usage**
 
 The Forest_Fire_Detection.ipynb notebook provides step-by-step instructions on data preprocessing, model building, training, and evaluation. You can run this notebook on Google Colab.
+
+
+# Forest Fire Classifier Evaluation Script
+
+This repository contains a Bash script that allows you to evaluate the performance of your forest fire classifier on a test dataset. The script runs a Python program that uses a trained model to predict whether images in the test dataset contain forest fire or not.
+
+## Usage
+
+1. Make sure you have the necessary requirements installed, including TensorFlow and any other dependencies. If not, you can install them using:
+
+   ```bash
+   pip install tensorflow
+
+
+   chmod +x evaluate.sh
+
+  ./evaluate.sh /path/to/test/dataset
+
+
+Replace /path/to/test/dataset with the actual path to your test dataset. The script will assume that the model file (forest_fire_classifier.h5) is located in the same directory as the evaluate.sh script.
+
+The script will run the evaluation and generate an outputs.txt file in the same directory as the script. This file will contain the predicted labels and confidence scores for each test image.
