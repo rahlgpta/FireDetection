@@ -5,13 +5,6 @@ This repository contains code for a simple image classification task that classi
 
 The dataset used for this project is available in the "Dataset.zip" file. It contains two folders: "Training" and "Testing". The "Training"  contains subfolders "fire" and "no_fire", each containing respective images. The "Testing" subdirectory directly contains test images.
 
-**Setup**
-
-Clone this repository to your local machine or download the ZIP file.
-
-Extract the contents of "Dataset.zip" into the repository directory. << i am not providing this in this repository right now
-
-Upload the entire repository (and dataset) to your Google Drive.
 
 **Usage**
 
