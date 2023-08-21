@@ -33,7 +33,7 @@ This repository contains a Bash script that allows you to evaluate the performan
    chmod +x evaluate.sh
  
    
-   ./evaluate.sh /path/to/test/dataset
+   /evaluate.sh /dataset
 
 
 Replace /path/to/test/dataset with the actual path to your test dataset. The script will assume that the model file (forest_fire_classifier.h5) is located in the same directory as the evaluate.sh script.
