@@ -27,7 +27,7 @@ This repository contains a Bash script that allows you to evaluate the performan
 1. Make sure you have the necessary requirements installed, including TensorFlow and any other dependencies. If not, you can install them using:
 
    ```bash
-   pip install tensorflow
+   pip3 install tensorflow
 
 
    chmod +x evaluate.sh
