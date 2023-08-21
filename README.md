@@ -32,7 +32,7 @@ This repository contains a Bash script that allows you to evaluate the performan
 
    chmod +x evaluate.sh
  
-   ```bash s
+   
    ./evaluate.sh /path/to/test/dataset
 
 
